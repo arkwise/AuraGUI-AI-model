@@ -1,0 +1,304 @@
+Ollama Model Analysis Report
+Generated on: Mon 16 Dec 2024 09:00:21 NZDT
+=========================================
+Scanning blobs in: /Users/chelsonaitcheson/.ollama/models/blobs
+Analyzing blob: sha256-0b4284c1f87029e67654c7953afa16279961632cf73dcfe33374c4c2f298fa35
+Size: 8.0K
+File type: Unicode text, UTF-8 text
+Extracted strings (if any):
+LLAMA 3.2 COMMUNITY LICENSE AGREEMENT
+Llama 3.2 Version Release Date: September 25, 2024
+Agreement
+ means the terms and conditions for use, reproduction, distribution 
+and modification of the Llama Materials set forth herein.
+Documentation
+ means the specifications, manuals and documentation accompanying Llama 3.2
+distributed by Meta at https://llama.meta.com/doc/overview.
+Licensee
+ or 
+-----------------------------------------
+Analyzing blob: sha256-0ba8f0e314b4264dfd19df045cde9d4c394a52474bf92ed6a3de22a4ca31a177
+Size:  16K
+File type: Unicode text, UTF-8 text
+Extracted strings (if any):
+LLAMA 3.1 COMMUNITY LICENSE AGREEMENT
+Llama 3.1 Version Release Date: July 23, 2024
+Agreement
+ means the terms and conditions for use, reproduction, distribution and modification of the
+Llama Materials set forth herein.
+Documentation
+ means the specifications, manuals and documentation accompanying Llama 3.1
+distributed by Meta at https://llama.meta.com/doc/overview.
+Licensee
+ or 
+-----------------------------------------
+Analyzing blob: sha256-11f274007f093fefeec994a5dbbb33d0733a4feb87f7ab66dcd7c1069fef0068
+Size: 5.6G
+File type: data
+Extracted strings (if any):
+GGUF
+general.architecture
+mllama
+general.type
+model
+general.name
+Model
+general.size_label
+mllama.block_count
+mllama.context_length
+-----------------------------------------
+Analyzing blob: sha256-1a4c3c319823fdabddb22479d0b10820a7a39fe49e45c40bae28fbe83926dc14
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"model_format":"gguf","model_family":"llama","model_families":["llama"],"model_type":"8.0B","file_type":"Q4_0","architecture":"amd64","os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe","sha256:11ce4ee3e170f6adebac9a991c22e22ab3f8530e154ee669954c4bc73061c258","sha256:0ba8f0e314b4264dfd19df045cde9d4c394a52474bf92ed6a3de22a4ca31a177","sha256:56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb"]}}
+-----------------------------------------
+Analyzing blob: sha256-28bfdfaeba9f51611c00ed322ba684ce6db076756dbc46643f98a8a748c5199e
+Size: 1.6G
+File type: DIY-Thermocam raw data (Lepton 3.x), scale 0-0, spot sensor temperature -0.000000, unit celsius, color scheme 5, calibration
+Extracted strings (if any):
+GGUF
+general.architecture
+starcoder2
+general.name
+starcoder2-3b
+starcoder2.block_count
+starcoder2.context_length
+starcoder2.embedding_length
+starcoder2.feed_forward_length
+starcoder2.attention.head_count
+-----------------------------------------
+Analyzing blob: sha256-2e0493f67d0c8c9c68a8aeacdf6a38a2151cb3c4c1d42accf296e19810527988
+Size: 4.0K
+File type: ASCII text
+Extracted strings (if any):
+[INST] <<SYS>>{{ .System }}<</SYS>>
+{{ .Prompt }} [/INST]
+-----------------------------------------
+Analyzing blob: sha256-316526ac7323d6f42305c5bbf1939e1197487c1e6ea1f01292ceb5e3040b707a
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"model_format":"gguf","model_family":"llama","model_type":"7B","file_type":"Q4_0","rootfs":{"type":"layers","diff_ids":["sha256:3a43f93b78ec50f7c4e4dc8bd1cb3fff5a900e7d574c51a6f7495e48486e0dac","sha256:8c17c2ebb0ea011be9981cc3922db8ca8fa61e828c5d3f44cb6ae342bf80460b","sha256:590d74a5569b8a20eb2a8b0aa869d1d1d3faf6a7fdda1955ae827073c7f502fc","sha256:2e0493f67d0c8c9c68a8aeacdf6a38a2151cb3c4c1d42accf296e19810527988","sha256:7f6a57943a88ef021326428676fe749d38e82448a858433f41dae5e05ac39963"]},"architecture":"amd64","os":"linux"}
+-----------------------------------------
+Analyzing blob: sha256-37c99d4c7b605f0ebce03962ea9051ea770cf2c8f86c0e75bc728582d18fdd0d
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"stop":["<file_sep>","<|end_of_text|>"]}
+-----------------------------------------
+Analyzing blob: sha256-3a43f93b78ec50f7c4e4dc8bd1cb3fff5a900e7d574c51a6f7495e48486e0dac
+Size: 3.6G
+File type: data
+Extracted strings (if any):
+GGUF
+general.architecture
+llama
+general.name
+codellama
+llama.context_length
+llama.embedding_length
+llama.block_count
+llama.feed_forward_length
+llama.rope.dimension_count
+-----------------------------------------
+Analyzing blob: sha256-3b190e68fefe043e95b25825d7ebb8d2d61b154678765a2ab0d4a3a7a5b9733e
+Size: 4.0K
+File type: ASCII text
+Extracted strings (if any):
+<file_sep>
+{{- if .Suffix }}<fim_prefix>
+{{ .Prompt }}<fim_suffix>{{ .Suffix }}<fim_middle>
+{{- else }}{{ .Prompt }}
+{{- end }}<|end_of_text|>
+-----------------------------------------
+Analyzing blob: sha256-42347cd80dc868877d2807869c0e9c90034392b2f1f001cae1563488021e2e19
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"model_format":"gguf","model_family":"llama","model_families":["llama"],"model_type":"7.2B","file_type":"Q4_0","architecture":"amd64","os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:ff82381e2bea77d91c1b824c7afb83f6fb73e9f7de9dda631bcdbca564aa5435","sha256:43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1","sha256:c43332387573e98fdfad4a606171279955b53d891ba2500552c2984a6560ffb4","sha256:ed11eda7790d05b49395598a42b155812b17e263214292f7b87d15e14003d337"]}}
+-----------------------------------------
+Analyzing blob: sha256-43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1
+Size:  12K
+File type: ASCII text
+Extracted strings (if any):
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+   1. Definitions.
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+      "Legal Entity" shall mean the union of the acting entity and all
+-----------------------------------------
+Analyzing blob: sha256-491dfa501e59ed17239711477601bdc7f559de5407fbd4a2a79078b271045621
+Size: 4.0K
+File type: ASCII text
+Extracted strings (if any):
+{{- if .Messages }}
+{{- range $index, $_ := .Messages }}
+{{- if eq .Role "user" }}
+{{- if and (eq (len (slice $.Messages $index)) 1) $.Tools }}[AVAILABLE_TOOLS] {{ $.Tools }}[/AVAILABLE_TOOLS]
+{{- end }}[INST] {{ if and $.System (eq (len (slice $.Messages $index)) 1) }}{{ $.System }}
+{{ end }}{{ .Content }}[/INST]
+{{- else if eq .Role "assistant" }}
+{{- if .Content }} {{ .Content }}
+{{- else if .ToolCalls }}[TOOL_CALLS] [
+{{- range .ToolCalls }}{"name": "{{ .Function.Name }}", "arguments": {{ .Function.Arguments }}}
+-----------------------------------------
+Analyzing blob: sha256-4ec42cd966c9d5cf067cc4438869e0737679203b4d6fc551c226c15a1c2d7997
+Size:  16K
+File type: Unicode text, UTF-8 text, with very long lines (938)
+Extracted strings (if any):
+BigCode Open RAIL-M v1 License Agreement
+Section I: Preamble
+This OpenRAIL-M License Agreement was created under BigCode, an open and collaborative research project aimed at the responsible development and Use of Large Language Models (
+LLMs
+) for code generation. This license is generally applicable to any machine-learning Model.
+This License Agreement strives for both the open and responsible Use of the accompanying Model. Openness here is understood as enabling users of the Model on a royalty free basis to Use it, modify it, and even share commercial versions of it. Use restrictions are included to prevent misuse of the Model.
+This License Agreement governs the Use of the Model and Modifications of the Model. You and Licensor agree as follows:
+1.Definitions
+Contribution
+ means any work of authorship, including the original version of the Model and any Modifications of the Model that is intentionally submitted to Licensor for inclusion in the Model by the copyright owner or by an individual or entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, 
+-----------------------------------------
+Analyzing blob: sha256-56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"stop":["\u003c|start_header_id|\u003e","\u003c|end_header_id|\u003e","\u003c|eot_id|\u003e"]}
+-----------------------------------------
+Analyzing blob: sha256-590d74a5569b8a20eb2a8b0aa869d1d1d3faf6a7fdda1955ae827073c7f502fc
+Size: 8.0K
+File type: Unicode text, UTF-8 text, with very long lines (303)
+Extracted strings (if any):
+# Llama Code Acceptable Use Policy
+Meta is committed to promoting safe and fair use of its tools and features, including Llama Code. If you access or use Llama Code, you agree to this Acceptable Use Policy (
+Policy
+). The most recent copy of this policy can be found at [ai.meta.com/llama/use-policy](http://ai.meta.com/llama/use-policy).
+## Prohibited Uses
+We want everyone to use Llama Code safely and responsibly. You agree you will not use, or allow others to use, Llama Code to: 
+1. Violate the law or others
+ rights, including to:
+    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as: 
+        1. Violence or terrorism 
+-----------------------------------------
+Analyzing blob: sha256-715415638c9c4c0cb2b78783da041b97bd1205f8b9f9494bd7e5a850cb443602
+Size: 4.0K
+File type: ASCII text
+Extracted strings (if any):
+{{- range $index, $_ := .Messages }}<|start_header_id|>{{ .Role }}<|end_header_id|>
+{{ .Content }}
+{{- if gt (len (slice $.Messages $index)) 1 }}<|eot_id|>
+{{- else if ne .Role "assistant" }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+{{ end }}
+{{- end }}
+-----------------------------------------
+Analyzing blob: sha256-7f6a57943a88ef021326428676fe749d38e82448a858433f41dae5e05ac39963
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"rope_frequency_base":1000000,"stop":["[INST]","[/INST]","\u003c\u003cSYS\u003e\u003e","\u003c\u003c/SYS\u003e\u003e"]}
+-----------------------------------------
+Analyzing blob: sha256-8c17c2ebb0ea011be9981cc3922db8ca8fa61e828c5d3f44cb6ae342bf80460b
+Size: 8.0K
+File type: ASCII text
+Extracted strings (if any):
+LLAMA 2 COMMUNITY LICENSE AGREEMENT
+Llama 2 Version Release Date: July 18, 2023
+"Agreement" means the terms and conditions for use, reproduction, distribution and 
+modification of the Llama Materials set forth herein.
+"Documentation" means the specifications, manuals and documentation 
+accompanying Llama 2 distributed by Meta at ai.meta.com/resources/models-and-
+libraries/llama-downloads/.
+"Licensee" or "you" means you, or your employer or any other person or entity (if 
+you are entering into this Agreement on such person or entity's behalf), of the age 
+required under applicable laws, rules or regulations to provide legal consent and that 
+-----------------------------------------
+Analyzing blob: sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe
+Size: 4.3G
+File type: data
+Extracted strings (if any):
+GGUF
+general.architecture
+llama
+general.type
+model
+general.name
+Meta Llama 3.1 8B Instruct
+general.finetune
+Instruct
+general.basename
+-----------------------------------------
+Analyzing blob: sha256-9211f2fea414654e0c3039ea44cdc0cd74124dfecffee03dd760b9fee654998b
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"model_format":"gguf","model_family":"starcoder2","model_families":["starcoder2"],"model_type":"3B","file_type":"Q4_0","architecture":"amd64","os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:28bfdfaeba9f51611c00ed322ba684ce6db076756dbc46643f98a8a748c5199e","sha256:4ec42cd966c9d5cf067cc4438869e0737679203b4d6fc551c226c15a1c2d7997"]}}
+-----------------------------------------
+Analyzing blob: sha256-948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85
+Size: 4.0K
+File type: ASCII text
+Extracted strings (if any):
+{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>
+{{- if .System }}
+{{ .System }}
+{{- end }}
+{{- if .Tools }}
+Cutting Knowledge Date: December 2023
+When you receive a tool call response, use the output to format an answer to the orginal user question.
+You are a helpful assistant with tool calling capabilities.
+{{- end }}<|eot_id|>
+{{- end }}
+-----------------------------------------
+Analyzing blob: sha256-ece5e659647a20a5c28ab9eea1c12a1ad430bc0f2a27021d00ad103b3bf5206f
+Size: 1.8G
+File type: data
+Extracted strings (if any):
+GGUF
+general.architecture
+mllama
+general.file_type
+general.name
+Llama-3.2-11B-Vision-Instruct
+general.description
+vision encoder for Mllama
+general.type
+projector
+-----------------------------------------
+Analyzing blob: sha256-ed11eda7790d05b49395598a42b155812b17e263214292f7b87d15e14003d337
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"stop":["[INST]","[/INST]"]}
+-----------------------------------------
+Analyzing blob: sha256-fbd313562bb706ac00f1a18c0aad8398b3c22d5cd78c47ff6f7246c4c3438576
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"model_format":"gguf","model_family":"mllama","model_families":["mllama","mllama"],"model_type":"9.8B","file_type":"Q4_K_M","architecture":"amd64","os":"linux","rootfs":{"type":"layers","diff_ids":["sha256:11f274007f093fefeec994a5dbbb33d0733a4feb87f7ab66dcd7c1069fef0068","sha256:ece5e659647a20a5c28ab9eea1c12a1ad430bc0f2a27021d00ad103b3bf5206f","sha256:715415638c9c4c0cb2b78783da041b97bd1205f8b9f9494bd7e5a850cb443602","sha256:0b4284c1f87029e67654c7953afa16279961632cf73dcfe33374c4c2f298fa35","sha256:fefc914e46e6024467471837a48a24251db2c6f3f58395943da7bf9dc6f70fb6"]}}
+-----------------------------------------
+Analyzing blob: sha256-fefc914e46e6024467471837a48a24251db2c6f3f58395943da7bf9dc6f70fb6
+Size: 4.0K
+File type: JSON data
+Extracted strings (if any):
+{"temperature":0.6,"top_p":0.9}
+-----------------------------------------
+Analyzing blob: sha256-ff82381e2bea77d91c1b824c7afb83f6fb73e9f7de9dda631bcdbca564aa5435
+Size: 3.8G
+File type: data
+Extracted strings (if any):
+GGUF
+general.architecture
+llama
+general.name
+Mistral-7B-Instruct-v0.3
+llama.block_count
+llama.context_length
+llama.embedding_length
+llama.feed_forward_length
+llama.attention.head_count
+-----------------------------------------
+Analyzing manifests in: /Users/chelsonaitcheson/.ollama/models/manifests
+-----------------------------------------
